@@ -90,7 +90,7 @@ function Notification({ name, action, post, time, image, seen }) {
             {actions.action == "reacted"
               ? "reacted to your post "
               : actions.action == "followed"
-              ? "followed You"
+              ? "followed you"
               : actions.action == "Joined"
               ? "has joined your group "
               : actions.action == "message"
@@ -103,7 +103,7 @@ function Notification({ name, action, post, time, image, seen }) {
             <span className="post">{post}</span>{" "}
             <span className="star">{seen ? " " : "*"}</span>
           </p>
-          {time}
+          <span className="time">{time}</span>
           <br></br>
           <div className={actions.action == "message" ? "msg" : ""}>
             {actions.action == "message"
@@ -120,7 +120,7 @@ function Header() {
     <>
       <div className="header">
         <h2>
-          Notification <span className="number">3</span>{" "}
+          Notifications <span className="number">3</span>{" "}
         </h2>
         <p>mark all as read</p>
       </div>
