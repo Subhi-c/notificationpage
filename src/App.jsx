@@ -7,7 +7,7 @@ function App() {
       action: "reacted",
       post: "My first tournament today",
       time: "1m ago",
-      img: "src/assets/avatar-mark-webber.webp",
+      img: "assets/avatar-mark-webber.webp",
       seen: false,
     },
     {
@@ -15,7 +15,7 @@ function App() {
       action: "followed",
       post: "",
       time: "5m ago",
-      img: "src/assets/avatar-angela-gray.webp",
+      img: "assets/avatar-angela-gray.webp",
       seen: false,
     },
     {
@@ -23,7 +23,7 @@ function App() {
       action: "Joined",
       post: "Chess club",
       time: "1 day ago",
-      img: "src/assets/avatar-jacob-thompson.webp",
+      img: "assets/avatar-jacob-thompson.webp",
       seen: false,
     },
     {
@@ -31,7 +31,7 @@ function App() {
       action: "message",
       post: "",
       time: " 5 days ago",
-      img: "src/assets/avatar-rizky-hasanuddin.webp",
+      img: "assets/avatar-rizky-hasanuddin.webp",
       seen: true,
     },
     {
@@ -39,7 +39,7 @@ function App() {
       action: "commented",
       post: "picture",
       time: " 1 week ago",
-      img: "src/assets/avatar-kimberly-smith.webp",
+      img: "assets/avatar-kimberly-smith.webp",
       seen: true,
     },
     {
@@ -47,7 +47,7 @@ function App() {
       action: "reacted",
       post: " 5 end-game strategies to increase your win rate ",
       time: " 2 weeks ago",
-      img: "src/assets/avatar-nathan-peterson.webp",
+      img: "assets/avatar-nathan-peterson.webp",
       seen: true,
     },
     {
@@ -55,7 +55,7 @@ function App() {
       action: "left",
       post: "Chess club",
       time: "2 weeks ago",
-      img: "src/assets/avatar-anna-kim.webp",
+      img: "assets/avatar-anna-kim.webp",
       seen: true,
     },
   ];
